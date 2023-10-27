@@ -1,0 +1,36 @@
+.bg-one-home {
+    background-image: url("https://user-images.githubusercontent.com/139281214/270061843-be9472e5-eae7-4bdd-b88b-98336ac8094d.jpg");
+}
+
+/* nav p {
+    font-size: calc(0.25em + 0.7vw);
+} */
+
+.bg-two-manifesto {
+    background-image: url('https://user-images.githubusercontent.com/139281214/270062436-0f18d367-2b0d-4a18-a7c6-e285a9b96d35.jpg');
+}
+
+.bg-three-more {
+    /* background-image: url('https://user-images.githubusercontent.com/139281214/270062011-712019fd-4a31-4442-85e9-fe0660416996.jpg'); */
+}
+
+
+
+
+.slideshow {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+ }
+ 
+ img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 5s;
+ }
+ 
+ img.active {
+    opacity: 1;
+ }
