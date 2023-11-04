@@ -20,15 +20,15 @@
 .slideshow {
     position: relative;
     max-width: 800px;
-    margin: 0 auto;
+    margin: auto;
  }
  
- img {
+ .slideshow img {
     position: absolute;
     width: 100%;
     height: auto;
     opacity: 0;
-    transition: opacity 5s;
+    transition: 5s;
  }
  
  img.active {
