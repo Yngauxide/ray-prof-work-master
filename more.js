@@ -12,3 +12,9 @@ images[currentImage].classList.add("active");
 
 // Start the crossfade loop
 setInterval(crossfade, 3000); // Change image every 3 seconds
+
+
+
+
+
+   
