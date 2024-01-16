@@ -1,4 +1,4 @@
-const images = document.querySelectorAll(".slideshow img");
+const images = document.querySelectorAll (".slideshow img");
 let currentImage = 0;
 
 function crossfade() {
@@ -11,10 +11,14 @@ function crossfade() {
 images[currentImage].classList.add("active");
 
 // Start the crossfade loop
-setInterval(crossfade, 3000); // Change image every 3 seconds
+setInterval(crossfade, 5000); // Change image every 3 seconds
+
+
+
+  
 
 
 
 
-
+ 
    
