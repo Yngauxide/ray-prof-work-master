@@ -28,3 +28,39 @@
  img.active {
     opacity: 1;
  }
+
+
+  /* comment section */
+
+
+ .form-name{
+    width: 40%;
+    background-color: rgb(8, 8, 27);
+    color: white;
+    margin-bottom: 2%;
+ }
+
+ .form-comment{
+    width: 40%;
+    background-color: rgb(8, 8, 27);
+    color: white; 
+ }
+
+ .submitbtn{
+    background-color: rgb(8, 8, 27);
+    color: white;
+    border-radius: 3%;
+    margin-top: 6px;
+    margin-left: 3%;
+    
+    
+ }
+
+
+ .box {
+   width: 100px;
+   height: 100px;
+   background-color: blue;
+   opacity: 0;
+   transition: opacity 0.5s ease-in-out;
+ }

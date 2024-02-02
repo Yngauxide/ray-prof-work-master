@@ -15,6 +15,25 @@ setInterval(crossfade, 5000); // Change image every 3 seconds
 
 
 
+// anima
+
+window.addEventListener('scroll', function() {
+    var box = document.getElementById('animatedBox');
+    var scrollPosition = window.scrollY;
+
+    // Adjust the condition based on your scroll position
+    if (scrollPosition > 200) {
+      box.style.opacity = 1;
+    } else {
+      box.style.opacity = 0;
+    }
+  });
+
+
+
+
+
+
   
 
 
